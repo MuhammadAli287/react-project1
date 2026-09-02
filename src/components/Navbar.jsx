@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Navbar(){
     return (
-        <div className="fixed w-full flex justify-between items-center p-6  bg-white/70 rounded-lg m-2">
-            <div>M4k</div>
+        <div className="fixed w-full flex justify-between items-center p-6  bg-gray-300/50 rounded-lg m-2">
+            <div className="text-2xl font-bold">M4K</div>
             <div className="flex gap-4 ">
                 <Link className="hover:text-blue-600 hover:border-b-2 hover:border-b-blue-600" to='/'>Home</Link>
                   <Link className="hover:text-blue-600 hover:border-b-2 hover:border-b-blue-600" to='/about'>About</Link>
