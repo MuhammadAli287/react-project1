@@ -1,4 +1,5 @@
 import { ArrowBigRightDashIcon, ArrowRightIcon, KanbanIcon, RocketIcon, SatelliteDishIcon, SigmaIcon } from "lucide-react";
+import Footer from "../components/Footer";
 
 
 function About(){
@@ -7,8 +8,8 @@ function About(){
         <section>
              <div className="text-center mt-10">
           <a className="text-blue-700 font-semibold m-4 px-6 py-1 rounded-2xl bg-blue-700/20" href="#">💮 Our Story</a> 
-          <h1 className="mt-6 text-4xl md:text-5xl md:text-5xl font-bold">We Turn <span className="text-blue-400">Ideas</span> Into <span className="text-blue-400">Reality</span></h1>
-          <p className="mt-4 p-2 text-xl text-gray-600">mvpier was born from a simple belief: every great product starts with a great MVP. We're here to help founders like you validate ideas and launch products at lightning speed.</p>
+          <h1 className="mt-6 text-4xl md:text-5xl md:text-5xl font-bold">We Turn <span className="text-blue-400">Ideas</span> Into<br /> <span className="text-blue-400">Reality</span></h1>
+          <p className="mt-4 p-2 md:px-50 md:text-2xl text-xl text-gray-600">mvpier was born from a simple belief: every great product starts with a great MVP. We're here to help founders like you validate ideas and launch products at lightning speed.</p>
         </div>
         <div className="p-6 grid md:grid-cols-2  lg:grid-cols-4 gap-4 justify-around items-center bg-gray-200/40 m-4 mt-10 shadow-xl">
             <div className="mt-6" >
@@ -60,29 +61,50 @@ function About(){
         {/* journey section  */}
         <section>
             
-                <div className="p-8 text-center">
+                <div className="p-8 mt-12 text-center">
                     <h1 className="text-4xl md:text-5xl font-semibold">
                         Our <span className="text-blue-500">Journey</span>
                     </h1>
                     <p className="mt-8 text-gray-500 text-xl">From startup to the leading MVP development agency - here's how we built our reputation for excellence.</p>
                  
             </div>
-            <div className="bg-gray-200/50 grid ">
-                <div className="p-6 m-8 bg-white rounded-2xl shadow-xl">
+            <div className="bg-gray-200/30 grid ">
+                <div className="p-6 m-8 bg-white rounded-2xl shadow-xl  border-l-4 border-blue-500">
                    <h1 className="text-2xl font-bold">The Beginning</h1>
                    <p className="text-gray-600 mt-4">Founded by serial entrepreneurs who experienced the pain of slow, expensive development cycles.</p>
                     <button className="text-blue-700 mt-4  font-semibold px-6 py-1 rounded-2xl bg-blue-700/20">💮 First MVP launched in 3 weeks</button> 
                 </div>
-                <div className="p-6 m-8 bg-white rounded-2xl shadow-xl">
-                   <h1 className="text-2xl font-bold">The Beginning</h1>
-                   <p className="text-gray-600 mt-4">Founded by serial entrepreneurs who experienced the pain of slow, expensive development cycles.</p>
-                    <a className="text-blue-700 mt-6  font-semibold px-6 py-1 rounded-2xl bg-blue-700/20" href="#">💮 First MVP launched in 3 weeks</a> 
+                <div className="p-6 m-8 mt-2 bg-white rounded-2xl shadow-xl border-l-4 border-blue-700">
+                   <h1 className="text-2xl font-bold">Rapid Growth</h1>
+                   <p className="text-gray-600 mt-4">Refined our process and built a world-class team of designers and developers.</p>
+                    <button className="text-blue-700 mt-6  font-semibold px-6 py-1 rounded-2xl bg-blue-700/20" href="#">💮 50+ MVPs launched, $10M+ raised by clients</button> 
+                </div>
+                <div className="p-6 m-8 mt-2 bg-white rounded-2xl shadow-xl border-l-4 border-blue-800">
+                   <h1 className="text-2xl font-bold">Scale & Impact</h1>
+                   <p className="text-gray-600 mt-4">Expanded globally and launched our AI-accelerated development framework.</p>
+                    <button className="text-blue-700 mt-6  font-semibold px-6 py-1 rounded-2xl bg-blue-700/20" href="#">💮 100+ MVPs, 95% success rate</button> 
                 </div>
             </div>
-            
-
 
         </section>
+
+         {/* ready to start sec  */}
+         <section className="bg-sky-600/70 text-white p-10 mt-10">
+             <div className="p-8 mt-2 text-center">
+                  <a className="text-gray-200 font-semibold m-4 px-6 py-1 rounded-2xl bg-gray-700/20" href="#">💮 Ready To Start?</a> 
+                    <h1 className="text-4xl md:text-5xl font-bold mt-10">
+                       Let's Build Your  <span className="font-serif">Dream</span> Together
+                    </h1>
+                    <p className="mt-8 text-gray-200 font-serif text-xl">Join the hundreds of founders who've turned their ideas into successful products with mvpier.</p>
+                 
+            </div>
+            <div className="grid md:flex gap-4 justify-center  ">
+                <button className="px-15 py-3  rounded-3xl bg-white text-blue-500 font-semibold">Start Your Journey </button> 
+                <button className="px-15 py-3  rounded-3xl hover:bg-white border-2 border-white text-white hover:text-blue-600 font-semibold">See Our Work </button>
+            </div>
+         </section>
+
+         <Footer />
 
         </>
     )
