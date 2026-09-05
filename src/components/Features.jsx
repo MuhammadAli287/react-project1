@@ -20,7 +20,7 @@ function Features(){
 
         </div>
         {/* parent of right side card  */}
-        <div className="text-white  m-4 rounded-lg  grid md:grid-cols-2 gap-2 ">
+        <div className="text-white  m-4 rounded-lg  grid  md:grid-cols-2 gap-2 ">
             <div className="bg-emerald-600 p-6 rounded-lg ">
                 <h1><FolderClosedIcon /></h1>
                 <h1 className="mt-4 text-xl font-bold">Full-Stack Dev</h1>
@@ -46,9 +46,9 @@ function Features(){
             </div>
       </div>
 
-      <div className="text-white m-4 rounded-lg  grid grid-cols-2 md:grid-cols-3 gap-2 ">
+      <div className="text-white m-4 rounded-lg  grid grid-cols-2  md:grid-cols-3 gap-2 ">
           
-           <div className="grid  md:grid-cols-2 gap-2 text-center">
+           <div className="grid  md:grid-cols-2 gap-2 text-center ">
             <div className="bg-emerald-600 p-8  rounded-lg ">
                 <h1><FolderClosedIcon /></h1>
                 <h1 className="mt-2 text-xl font-bold">Scalable</h1>

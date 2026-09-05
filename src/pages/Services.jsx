@@ -20,21 +20,23 @@ function Services(){
             <img className="rounded-2xl hidden md:block " src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIRUjUdi0ke0Hec96rRkAcJAC0E1KdVgbHCwRBMdenag&s=10' width='400rem'></img>
            </div>
         </section>
+
+        {/* additional swrvices  */}
         <section className="bg-gray-200/30 p-10 mt-6">
             <h1 className="text-center mt-10 font-serif font-bold text-4xl md:text-5xl ">Additional <span className="text-blue-500">Services</span></h1>
             <p className="text-center text-xl md:text-2xl m-4 text-gray-600">Comprehensive support for every stage of your startup journey.</p>
             <div className="grid gap-6 md:grid-cols-3 mt-14">
-                <div className="bg-white rounded-lg text-center p-8 border-1 border-gray-300 shadow-xl hover:shadow-2xl">
+                <div className="bg-white rounded-lg text-center p-8 border-1 border-gray-300 shadow-xl hover:shadow-2xl hover:-translate-y-1">
                     <button className="px-5 py-4 text-2xl rounded-lg bg-blue-600/50 text-center">🤵 </button>
                     <h1 className="mt-4 text-2xl font-bold">Market Validation</h1>
                     <p className="text-gray-600 mt-2">Test your assumptions before building. We help you design experiments, gather data, and make informed decisions.</p>
                 </div>
-                <div className="bg-white rounded-lg text-center p-8 border-1 border-gray-300 shadow-xl hover:shadow-2xl">
+                <div className="bg-white rounded-lg text-center p-8 border-1 border-gray-300 shadow-xl hover:shadow-2xl hover:-translate-y-1">
                     <button className="px-5 py-4 text-2xl rounded-lg bg-green-600/50 text-center">📩 </button>
                     <h1 className="mt-4 text-2xl font-bold">Technical Consulting</h1>
                     <p className="text-gray-600 mt-2">Get expert advice on technology choices, architecture decisions, and scaling strategies from our experienced team.</p>
                 </div>
-                <div className="bg-white rounded-lg text-center p-8 border-1 border-gray-300 shadow-xl hover:shadow-2xl">
+                <div className="bg-white rounded-lg text-center p-8 border-1 border-gray-300 shadow-xl hover:shadow-2xl hover:-translate-y-1">
                     <button className="px-5 py-4 text-2xl rounded-lg bg-red-700 text-center">💮 </button>
                     <h1 className="mt-4 text-2xl font-bold">Growth & Scaling</h1>
                     <p className="text-gray-600 mt-2">Ready to scale beyond your MVP? We provide ongoing development, optimization, and feature expansion services.</p>

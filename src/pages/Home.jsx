@@ -17,7 +17,7 @@ function Home(){
         <p className="mt-5 font-semibold">We design, develop, and launch your first version in weeks.</p>
         <button className="px-15 md:px-20 lg:px-30  py-2 mt-6 font-semibold rounded-full  bg-gradient-to-r from-pink-400 to-blue-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-blue-400">Lets Build Your Pitch</button>
         </div>
-          <div className="mt-8 ml-9 md:ml-20">
+          <div className="mt-8 ml-9 md:ml-20 text-center">
             <img className="rounded-3xl" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKsQTsN0Jh8-6vuru-ar8437SQj1zI2B-xK9-BT-5QjQ&s' width='300rem'  ></img>
           </div>
 
@@ -39,7 +39,7 @@ function Home(){
        <section className="mt-10">
         <div className="text-center">
           <a className="text-blue-700 font-semibold m-4 px-6 py-1 rounded-2xl bg-blue-700/20" href="#">🔗 Goals</a>
-         <p className="p-6 text-xl md:text-3xl text-blue-950 font-semibold md:text-5xl"> <span className="text-blue-700">Mvpier</span> helps founders validate ideas quickly and efficiently. By focusing on lean development, rapid prototyping, and continuous iteration, we empower startups to test their. </p>
+         <p className="p-6 md:px-30 text-xl md:text-3xl text-blue-950 font-semibold "> <span className="text-blue-700">Mvpier</span> helps founders validate ideas quickly and efficiently. By focusing on lean development, rapid prototyping, and continuous iteration, we empower startups to test their. </p>
       </div>
        </section>
 
@@ -156,9 +156,9 @@ function Home(){
           <h1 className="mt-6 text-3xl md:text-5xl font-bold">Get MVP Insights & <span className="text-blue-500">Startup Tips</span></h1>
           <p className="mt-4 p-2 text-xl text-gray-600">Join 500+ founders who receive our weekly insights on MVP development, startup strategies, and the latest trends in rapid prototyping. Plus, get exclusive access to our founder resources and case studies.</p>
         </div>
-        <div className="p-10 mt-4 shadow-xl border-1  border-gray-300 bg-white rounded-lg flex flex-col justify-center">
+        <div className="p-10 mt-4 shadow-xl border-1  border-gray-300 bg-white rounded-lg flex flex-col justify-center hover:-translate-y-2 ">
             <h1 className="text-center font-semibold text-2xl mb-4 ">Sign In</h1>
-          <div className=" flex flex-col gap-4 md:flex-row justify-center ">
+          <div className=" flex flex-col gap-4 md:flex-row justify-center  ">
             <input className="font-semibold text-center px-12 py-2 rounded-3xl border-1 border-gray-400 hover:bg-gray-100" type="email" placeholder="Email-Address" />
             <button className="text-white font-semibold text-center bg-blue-500 px-22 py-2.5 rounded-3xl hover:shadow-2xl hover:bg-blue-600">Get MVP Insight</button>
           </div>

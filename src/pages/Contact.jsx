@@ -15,15 +15,15 @@ function Contact(){
             </div>
             <div className="p-4 grid md:grid-cols-3 gap-8 text-center">
                 <div>
-                    <h1 className="text-3xl font-bold text-blue-600">2 hours</h1>
+                    <h1 className="text-3xl md:text-4xl font-bold text-blue-600">2 hours</h1>
                     <p className="text-gray-600 ">Response Time</p>
                 </div>
                 <div>
-                    <h1 className="text-3xl font-bold text-blue-600">Free</h1>
+                    <h1 className="text-3xl md:text-4xl font-bold text-blue-600">Free</h1>
                     <p className="text-gray-600 ">Consultation</p>
                 </div>
                 <div>
-                    <h1 className="text-3xl font-bold text-blue-600">24/7</h1>
+                    <h1 className="text-3xl md:text-4xl font-bold text-blue-600">24/7</h1>
                     <p className="text-gray-600 ">Support</p>
                 </div>
             </div>

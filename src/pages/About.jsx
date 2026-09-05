@@ -69,17 +69,17 @@ function About(){
                  
             </div>
             <div className="bg-gray-200/30 grid ">
-                <div className="p-6 m-8 bg-white rounded-2xl shadow-xl  border-l-4 border-blue-500">
+                <div className="p-6 m-8 bg-white rounded-2xl shadow-xl  border-l-4 border-blue-500 hover:-translate-y-1 hover:shadow-2xl">
                    <h1 className="text-2xl font-bold">The Beginning</h1>
                    <p className="text-gray-600 mt-4">Founded by serial entrepreneurs who experienced the pain of slow, expensive development cycles.</p>
                     <button className="text-blue-700 mt-4  font-semibold px-6 py-1 rounded-2xl bg-blue-700/20">💮 First MVP launched in 3 weeks</button> 
                 </div>
-                <div className="p-6 m-8 mt-2 bg-white rounded-2xl shadow-xl border-l-4 border-blue-700">
+                <div className="p-6 m-8 mt-2 bg-white rounded-2xl shadow-xl border-l-4 border-blue-700 hover:-translate-y-1 hover:shadow-2xl">
                    <h1 className="text-2xl font-bold">Rapid Growth</h1>
                    <p className="text-gray-600 mt-4">Refined our process and built a world-class team of designers and developers.</p>
                     <button className="text-blue-700 mt-6  font-semibold px-6 py-1 rounded-2xl bg-blue-700/20" href="#">💮 50+ MVPs launched, $10M+ raised by clients</button> 
                 </div>
-                <div className="p-6 m-8 mt-2 bg-white rounded-2xl shadow-xl border-l-4 border-blue-800">
+                <div className="p-6 m-8 mt-2 bg-white rounded-2xl shadow-xl border-l-4 border-blue-800 hover:-translate-y-1 hover:shadow-2xl">
                    <h1 className="text-2xl font-bold">Scale & Impact</h1>
                    <p className="text-gray-600 mt-4">Expanded globally and launched our AI-accelerated development framework.</p>
                     <button className="text-blue-700 mt-6  font-semibold px-6 py-1 rounded-2xl bg-blue-700/20" href="#">💮 100+ MVPs, 95% success rate</button> 
@@ -99,7 +99,7 @@ function About(){
                  
             </div>
             <div className="grid md:flex gap-4 justify-center  ">
-                <button className="px-15 py-3  rounded-3xl bg-white text-blue-500 font-semibold">Start Your Journey </button> 
+                <button className="px-15 py-3  rounded-3xl bg-white text-blue-500 font-semibold hover:bg-gray-200">Start Your Journey </button> 
                 <button className="px-15 py-3  rounded-3xl hover:bg-white border-2 border-white text-white hover:text-blue-600 font-semibold">See Our Work </button>
             </div>
          </section>
