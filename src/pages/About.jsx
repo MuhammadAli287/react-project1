@@ -5,13 +5,13 @@ import Footer from "../components/Footer";
 function About(){
     return (
         <>
-        <section>
-             <div className="text-center mt-10">
+        <section className="py-20 px-4" >
+             <div className="text-center mt-8">
           <a className="text-blue-700 font-semibold m-4 px-6 py-1 rounded-2xl bg-blue-700/20" href="#">💮 Our Story</a> 
-          <h1 className="mt-6 text-4xl md:text-5xl md:text-5xl font-bold">We Turn <span className="text-blue-400">Ideas</span> Into<br /> <span className="text-blue-400">Reality</span></h1>
-          <p className="mt-4 p-2 md:px-50 md:text-2xl text-xl text-gray-600">mvpier was born from a simple belief: every great product starts with a great MVP. We're here to help founders like you validate ideas and launch products at lightning speed.</p>
+          <h1 className="mt-6 text-4xl md:text-5xl font-bold">We Turn <span className="text-blue-400">Ideas</span> Into<br /> <span className="text-blue-400">Reality</span></h1>
+          <p className="mt-4 px-4  md:px-30 md:text-2xl text-xl text-gray-600">mvpier was born from a simple belief: every great product starts with a great MVP. We're here to help founders like you validate ideas and launch products at lightning speed.</p>
         </div>
-        <div className="p-6 grid md:grid-cols-2  lg:grid-cols-4 gap-4 justify-around items-center bg-gray-200/40 m-4 mt-10 shadow-xl">
+        <div className="p-6 grid md:grid-cols-2  lg:grid-cols-4 gap-4 justify-around items-center bg-gray-200/40 m-4 mt-15 shadow-xl">
             <div className="mt-6" >
                 <h1 ><RocketIcon /></h1>
                 <h1 className="text-4xl mt-2 mb-2 font-bold text-blue-600/70">100 +</h1>
@@ -39,7 +39,7 @@ function About(){
         //  mission section  */}
 
         <section>
-            <div className="p-8 grid md:grid-cols-2 mt-15 items-center bg-pink-100/40">
+            <div className="p-8 grid md:grid-cols-2 mt-8 items-center bg-pink-100/40">
                 <div className="p-8">
                     <h1 className="text-4xl md:text-5xl font-semibold">
                         Our <span className="text-blue-500">Mission</span>

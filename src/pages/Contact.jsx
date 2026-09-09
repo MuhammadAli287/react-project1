@@ -4,8 +4,8 @@ import Footer from "../components/Footer";
 function Contact(){
     return (
         <>
-        <section>
-             <div className="p-8 mt-2 text-center">
+        <section className="py-20">
+             <div className="p-4 mt-10 text-center">
                   <a className="text-gray-200 font-semibold m-4 px-6 py-1 rounded-2xl bg-gray-700/20" href="#">💮 Get in Touch</a> 
                     <h1 className="text-4xl md:text-6xl font-semibold font-serif mt-10">
                        Ready to Build <br /><span className="font-serif text-blue-600">Your M4K ?</span> 
@@ -13,13 +13,13 @@ function Contact(){
                     <p className="mt-5 md:px-45 text-gray-500 font-serif text-2xl">Let's discuss your project and see how we can help you launch your idea quickly and effectively. Get a free consultation and custom quote for your MVP.</p>
                  
             </div>
-            <div className="p-4 grid md:grid-cols-3 gap-8 text-center">
+            <div className="p-2 mt-14 grid md:grid-cols-3 gap-8 text-center">
                 <div>
                     <h1 className="text-3xl md:text-4xl font-bold text-blue-600">2 hours</h1>
                     <p className="text-gray-600 ">Response Time</p>
                 </div>
                 <div>
-                    <h1 className="text-3xl md:text-4xl font-bold text-blue-600">Free</h1>
+                    <h1 className="text-3xl md:text-4xl font-bold text-blue-600 animate-pulse">Free</h1>
                     <p className="text-gray-600 ">Consultation</p>
                 </div>
                 <div>
@@ -27,9 +27,12 @@ function Contact(){
                     <p className="text-gray-600 ">Support</p>
                 </div>
             </div>
+             
         </section>
+        <hr className="ml-8 mr-8 text-gray-400" />
+       
 
-        <section className="p-10 text-2xl text-center mt-6">
+        <section className="p-10 text-2xl text-center ">
              <a className="text-gray-400 font-semibold m-4 px-6 py-1 rounded-2xl bg-gray-700/20" href="#">💮 Choose Us ?</a> 
                  <h1 className="font-bold mt-10 text-4xl font-serif"> Why Choose M4k ?</h1>
                  <p className="text-gray-500 mt-5">✔ 2-8 week delivery timeline</p>

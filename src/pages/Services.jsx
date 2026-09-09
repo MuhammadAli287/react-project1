@@ -6,7 +6,7 @@ function Services(){
     return(
         // services sec 
         <>
-        <section className="p-10">
+        <section className="py-20">
             <div className="p-8 mt-2 text-center">
                   <a className="text-gray-200 font-semibold m-4 px-6 py-1 rounded-2xl bg-gray-700/20" href="#">💮 Our Services</a> 
                     <h1 className="text-4xl md:text-6xl font-semibold font-serif mt-10">
