@@ -157,7 +157,7 @@ function Home(){
           <p className="mt-4 p-2 text-xl text-gray-600">Join 500+ founders who receive our weekly insights on MVP development, startup strategies, and the latest trends in rapid prototyping. Plus, get exclusive access to our founder resources and case studies.</p>
         </div>
         <div className="p-10 mt-4 shadow-xl border-1  border-gray-300 bg-white rounded-lg flex flex-col justify-center hover:-translate-y-2 ">
-            <h1 className="text-center font-semibold text-2xl mb-4 ">Sign In</h1>
+            <h1 className="text-center font-semibold text-2xl mb-4 ">Sign in</h1>
           <div className=" flex flex-col gap-4 md:flex-row justify-center  ">
             <input className="font-semibold text-center px-12 py-2 rounded-3xl border-1 border-gray-400 hover:bg-gray-100" type="email" placeholder="Email-Address" />
             <button className="text-white font-semibold text-center bg-blue-500 px-22 py-2.5 rounded-3xl hover:shadow-2xl hover:bg-blue-600">Get MVP Insight</button>
@@ -166,7 +166,7 @@ function Home(){
           <h1 className="text-center mt-6 text-gray-500">🚀Weekly insights  🌍Founder resourse</h1>
         </div>
 
-        <p className=" mt-10 text-2xl text-gray-600 ">Trusted by founders ⭐</p>
+        <p className=" mt-10 text-2xl text-gray-600 ">Trusted by founders. ⭐</p>
          </section>
 
          {/* mupier sec last  */}
