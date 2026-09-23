@@ -163,10 +163,10 @@ function Home(){
             <button className="text-white font-semibold text-center bg-blue-500 px-22 py-2.5 rounded-3xl hover:shadow-2xl hover:bg-blue-600">Get MVP Insight</button>
           </div>
           
-          <h1 className="text-center mt-6 text-gray-500">🚀Weekly insights  🌍Founder resourse</h1>
+          <h1 className="text-center mt-6 text-gray-500">🚀Weekly insights 🌍Founder resourse</h1>
         </div>
 
-        <p className=" mt-10 text-2xl text-gray-600 ">Trusted by founders. ⭐</p>
+        <p className=" mt-10 text-2xl text-gray-600 ">Trusted By Founders. ⭐</p>
          </section>
 
          {/* mupier sec last  */}
