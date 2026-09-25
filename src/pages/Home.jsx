@@ -22,7 +22,7 @@ function Home(){
         <p className="mt-5 font-semibold">We design, develop, and launch your first version in weeks.</p>
         <button className="px-15 md:px-20 lg:px-30  py-2 mt-6 font-semibold rounded-full  bg-gradient-to-r from-pink-400 to-blue-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-blue-400">Lets Build Your Pitch</button>
         </div>
-          <div className="mt-8 ml-6 md:ml-20 text-center">
+          <div className="mt-8 ml-10 md:ml-20 text-center animate-pulse">
             <img className="rounded-3xl" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKsQTsN0Jh8-6vuru-ar8437SQj1zI2B-xK9-BT-5QjQ&s' width='300rem'  ></img>
           </div>
 
@@ -43,7 +43,7 @@ function Home(){
      {/* goals  */}
        <section className="mt-10">
         <div className="text-center">
-          <a className="text-blue-700 font-semibold m-4 px-6 py-1 rounded-2xl bg-blue-700/20" href="#">🔗 Goals</a>
+          <a className="text-blue-700 text-xl font-semibold m-4 px-6 py-2 rounded-2xl bg-blue-700/20" href="#">🔗 Goals</a>
          <p className="p-6 md:px-30 text-xl md:text-3xl text-blue-950 font-semibold "> <span className="text-blue-700">Mvpier</span> helps founders validate ideas quickly and efficiently. By focusing on lean development, rapid prototyping, and continuous iteration, we empower startups to test their. </p>
       </div>
        </section>
@@ -52,7 +52,7 @@ function Home(){
        <section className="p-6 mt-10">
         <div className="text-center">
           <a className="text-blue-700 font-semibold m-4 px-6 py-1 rounded-2xl bg-blue-700/20" href="#">🔗 Our Process</a>
-          <h1 className="text-3xl md:text-4xl font-bold mt-4">From Idea to <span className="text-blue-600/70">Live Product</span> in Record Time</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mt-4">From Idea to <span className="text-blue-600/70 animate-ping">Live Product</span> in Record Time</h1>
          <p className="p-6 text-xl md:text-2xl text-gray-500  md:text-3xl">  We don't just build MVPs - we accelerate your entire journey from concept to market validation. Here's how we turn your vision into reality. </p>
       </div>
 
@@ -184,7 +184,7 @@ function Home(){
 <div className="text-center mt-12">
       <button
         onClick={() => setShowForm(true)}
-        className="text-xl font-bold text-center bg-teal-800 px-5 py-3 m-4 rounded-lg animate-pulse "
+        className="text-xl font-bold text-center bg-teal-800 px-6 py-4 m-4 rounded-lg animate-pulse "
       >
         Register Now ☣
       </button>
