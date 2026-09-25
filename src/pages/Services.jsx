@@ -7,8 +7,8 @@ function Services(){
         // services sec 
         <>
         <section className="py-20">
-            <div className="p-8 mt-2 text-center">
-                  <a className="text-gray-200 font-semibold m-4 px-6 py-1 rounded-2xl bg-gray-700/20" href="#">💮 Our Services</a> 
+            <div className="p-8 mt-14 text-center">
+                  <a className="text-slate-600 text-xl font-semibold m-4 px-6 py-2 rounded-2xl bg-gray-700/20" href="#">💮 Our Services</a> 
                     <h1 className="text-4xl md:text-6xl font-semibold font-serif mt-10">
                        From Idea To <br /><span className="font-serif text-blue-600">Market in</span> Weeks
                     </h1>

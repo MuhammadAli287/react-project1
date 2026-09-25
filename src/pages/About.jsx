@@ -6,9 +6,9 @@ function About(){
     return (
         <>
         <section className="py-20 px-4" >
-             <div className="text-center mt-8">
-          <a className="text-blue-700 font-semibold m-4 px-6 py-1 rounded-2xl bg-blue-700/20" href="#">💮 Our Story</a> 
-          <h1 className="mt-6 text-4xl md:text-5xl font-bold">We Turn <span className="text-blue-400">Ideas</span> Into<br /> <span className="text-blue-400">Reality</span></h1>
+             <div className="text-center mt-20">
+          <a className="text-blue-700 text-xl font-semibold m-4 px-6 py-2 rounded-2xl bg-blue-700/20" href="#">💮 Our Story</a> 
+          <h1 className="mt-10 text-4xl md:text-5xl font-bold">We Turn <span className="text-blue-400">Ideas</span> Into<br /> <span className="text-blue-400">Reality</span></h1>
           <p className="mt-4 px-4  md:px-30 md:text-2xl text-xl text-gray-600">mvpier was born from a simple belief: every great product starts with a great MVP. We're here to help founders like you validate ideas and launch products at lightning speed.</p>
         </div>
         <div className="p-6 grid md:grid-cols-2  lg:grid-cols-4 gap-4 justify-around items-center bg-gray-200/40 m-4 mt-15 shadow-xl">

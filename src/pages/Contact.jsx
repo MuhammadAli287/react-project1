@@ -5,8 +5,8 @@ function Contact(){
     return (
         <>
         <section className="py-20">
-             <div className="p-4 mt-10 text-center">
-                  <a className="text-gray-200 font-semibold m-4 px-6 py-1 rounded-2xl bg-gray-700/20" href="#">💮 Get in Touch</a> 
+             <div className="p-4 mt-16 text-center">
+                  <a className="text-slate-500 text-xl font-semibold m-4 px-6 py-2 rounded-2xl bg-gray-700/20" href="#">💮 Get in Touch</a> 
                     <h1 className="text-4xl md:text-6xl font-semibold font-serif mt-10">
                        Ready to Build <br /><span className="font-serif text-blue-600">Your M4K ?</span> 
                     </h1>
@@ -43,8 +43,8 @@ function Contact(){
         </section>
 
 
-        <section className="bg-blue-600/80 text-white p-6  m-15 rounded-3xl">
-             <div className="p-8 mt-2 text-center">
+        <section className="bg-blue-600/80 text-white p-6 m-15  rounded-3xl">
+             <div className="p-4 mt-2 mb-6 text-center">
                   <a className="text-gray-200 font-semibold m-4 px-6 py-1 rounded-2xl bg-gray-700/20" href="#">💮 Expert Consulation</a> 
                     <h1 className="text-4xl md:text-5xl font-bold mt-10">
                       Still Have  <span className="font-serif">Questions ?</span> 

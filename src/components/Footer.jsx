@@ -2,6 +2,8 @@
 
 function Footer(){
     return (
+        <>
+        <hr className="m-6 mt-10" />
        <div className="p-6 text-center mt-10 grid md:grid-cols-3 justify-center items-center">
         <div>
             <h1 className="text-3xl font-bold">MUPIER</h1>
@@ -28,7 +30,13 @@ function Footer(){
                    <li>Success Stories</li>
             </ol>
         </div>
+       
        </div>
+
+        <div className="text-2xl m-6 text-center">
+           © ® ™ 🔗 🔄 ☠  
+        </div>
+       </>
     )
 }
 

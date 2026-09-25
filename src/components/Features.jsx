@@ -5,7 +5,7 @@ function Features(){
     return(
         <>
         <section>
-             <div className="text-center p-6">
+             <div className="text-center p-6 mt-8">
           <a className="text-blue-700 font-semibold m-4 px-6 py-1 rounded-2xl bg-blue-700/20" href="#"> features</a>
           <h1 className="text-4xl font-semibold mt-4 md:font-bold">Ship MVPs at Lightning Speed</h1>
          <p className="p-4 text-gray-700 md:text-2xl "> From concept to deployment in weeks, not months. Built for founder who move fast. </p>
@@ -46,9 +46,9 @@ function Features(){
             </div>
       </div>
 
-      <div className="text-white m-4 rounded-lg  grid grid-cols-2  md:grid-cols-3 gap-2 ">
+      <div className="text-white m-4 rounded-lg  grid grid-cols-1  md:grid-cols-3 gap-2 ">
           
-           <div className="grid  md:grid-cols-2 gap-2 text-center ">
+           <div className="grid   md:grid-cols-2 gap-2 text-center ">
             <div className="bg-emerald-600 p-8  rounded-lg ">
                 <h1><FolderClosedIcon /></h1>
                 <h1 className="mt-2 text-xl font-bold">Scalable</h1>

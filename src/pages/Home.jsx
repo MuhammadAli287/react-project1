@@ -1,10 +1,15 @@
-import { HeartCrackIcon, HomeIcon, InspectionPanelIcon, RockingChairIcon } from "lucide-react";
+//import { HeartCrackIcon, HomeIcon, InspectionPanelIcon, RockingChairIcon } from "lucide-react";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
+import Forms from "../components/Forms";
+import { useState } from "react";
 
 
 
 function Home(){
+
+   const [showForm, setShowForm] = useState(false);
+
     return (
        <>
 
@@ -13,11 +18,11 @@ function Home(){
         <div className="grid grid-cols-1 items-center text-center md:grid-cols-3 gap-6 px-15 py-24 bg-gradient-to-r from-pink-200 to-blue-100">
 
         <div >
-        <h1 className="text-3xl md:text-5xl"><b>We Build</b> Ideas<b> That Make Impact.</b></h1>
+        <h1 className="text-3xl md:text-5xl mt-15"><b>We Build</b> Ideas<b> That Make Impact.</b></h1>
         <p className="mt-5 font-semibold">We design, develop, and launch your first version in weeks.</p>
         <button className="px-15 md:px-20 lg:px-30  py-2 mt-6 font-semibold rounded-full  bg-gradient-to-r from-pink-400 to-blue-300 hover:bg-gradient-to-r hover:from-pink-500 hover:to-blue-400">Lets Build Your Pitch</button>
         </div>
-          <div className="mt-8 ml-9 md:ml-20 text-center">
+          <div className="mt-8 ml-6 md:ml-20 text-center">
             <img className="rounded-3xl" src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKsQTsN0Jh8-6vuru-ar8437SQj1zI2B-xK9-BT-5QjQ&s' width='300rem'  ></img>
           </div>
 
@@ -175,6 +180,19 @@ function Home(){
           <h1><i>From Founders, For Founders</i></h1>
          </div>
 
+          <div >
+<div className="text-center mt-12">
+      <button
+        onClick={() => setShowForm(true)}
+        className="text-xl font-bold text-center bg-teal-800 px-5 py-3 m-4 rounded-lg animate-pulse "
+      >
+        Register Now ☣
+      </button>
+     </div> 
+
+      {showForm && <Forms />}
+
+    </div>
          <Footer />
 
         
@@ -183,14 +201,16 @@ function Home(){
 
 
 
+
+
         {/* for icons use luicide react give icons as components */}
 
-     <div className="flex gap-6 p-6 items-center">
+     {/* <div className="flex gap-6 p-6 items-center">
        <HomeIcon color='blue' strokeWidth={5}  />
        <HeartCrackIcon color="red" />
        <RockingChairIcon size={50} />
        <InspectionPanelIcon fill="yellow" size={40} />
-        </div>
+        </div> */}
        </>
     )
 }
