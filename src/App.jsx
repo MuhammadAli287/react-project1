@@ -1,11 +1,11 @@
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
-
+//import Forms from "./components/Forms";
 
 function App(){ 
   return (
@@ -20,7 +20,8 @@ function App(){
            <Route path='/contact' element={<Contact />} />
       </Routes>
       </BrowserRouter>
-    
+     
+  
     
 
     </>

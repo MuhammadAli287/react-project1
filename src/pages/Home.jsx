@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Forms from "../components/Forms";
 import { useState } from "react";
 
-
+//import { Link } from "react-router-dom";
 
 function Home(){
 
@@ -12,6 +12,7 @@ function Home(){
 
     return (
        <>
+
 
        {/* section1  */}
        <section>
@@ -181,7 +182,7 @@ function Home(){
          </div>
 
           <div >
-<div className="text-center mt-12">
+    <div className="text-center mt-12">
       <button
         onClick={() => setShowForm(true)}
         className="text-xl font-bold text-center bg-teal-800 px-6 py-4 m-4 rounded-lg animate-pulse "
@@ -193,14 +194,11 @@ function Home(){
       {showForm && <Forms />}
 
     </div>
+
          <Footer />
 
         
        
-
-
-
-
 
 
         {/* for icons use luicide react give icons as components */}
